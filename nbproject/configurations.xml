@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="echo-nginx-module">
+        <df name="src">
+          <in>ngx_http_echo_echo.c</in>
+          <in>ngx_http_echo_filter.c</in>
+          <in>ngx_http_echo_foreach.c</in>
+          <in>ngx_http_echo_handler.c</in>
+          <in>ngx_http_echo_location.c</in>
+          <in>ngx_http_echo_module.c</in>
+          <in>ngx_http_echo_request_info.c</in>
+          <in>ngx_http_echo_sleep.c</in>
+          <in>ngx_http_echo_subrequest.c</in>
+          <in>ngx_http_echo_timer.c</in>
+          <in>ngx_http_echo_util.c</in>
+          <in>ngx_http_echo_var.c</in>
+        </df>
+      </df>
+      <df name="lua-nginx-module">
+        <df name="src">
+          <in>ngx_http_lua_accessby.c</in>
+          <in>ngx_http_lua_api.c</in>
+          <in>ngx_http_lua_args.c</in>
+          <in>ngx_http_lua_balancer.c</in>
+          <in>ngx_http_lua_bodyfilterby.c</in>
+          <in>ngx_http_lua_cache.c</in>
+          <in>ngx_http_lua_capturefilter.c</in>
+          <in>ngx_http_lua_clfactory.c</in>
+          <in>ngx_http_lua_config.c</in>
+          <in>ngx_http_lua_consts.c</in>
+          <in>ngx_http_lua_contentby.c</in>
+          <in>ngx_http_lua_control.c</in>
+          <in>ngx_http_lua_coroutine.c</in>
+          <in>ngx_http_lua_ctx.c</in>
+          <in>ngx_http_lua_directive.c</in>
+          <in>ngx_http_lua_exception.c</in>
+          <in>ngx_http_lua_headerfilterby.c</in>
+          <in>ngx_http_lua_headers.c</in>
+          <in>ngx_http_lua_headers_in.c</in>
+          <in>ngx_http_lua_headers_out.c</in>
+          <in>ngx_http_lua_initby.c</in>
+          <in>ngx_http_lua_initworkerby.c</in>
+          <in>ngx_http_lua_lex.c</in>
+          <in>ngx_http_lua_log.c</in>
+          <in>ngx_http_lua_logby.c</in>
+          <in>ngx_http_lua_misc.c</in>
+          <in>ngx_http_lua_module.c</in>
+          <in>ngx_http_lua_ndk.c</in>
+          <in>ngx_http_lua_output.c</in>
+          <in>ngx_http_lua_pcrefix.c</in>
+          <in>ngx_http_lua_phase.c</in>
+          <in>ngx_http_lua_regex.c</in>
+          <in>ngx_http_lua_req_body.c</in>
+          <in>ngx_http_lua_req_method.c</in>
+          <in>ngx_http_lua_rewriteby.c</in>
+          <in>ngx_http_lua_script.c</in>
+          <in>ngx_http_lua_semaphore.c</in>
+          <in>ngx_http_lua_setby.c</in>
+          <in>ngx_http_lua_shdict.c</in>
+          <in>ngx_http_lua_sleep.c</in>
+          <in>ngx_http_lua_socket_tcp.c</in>
+          <in>ngx_http_lua_socket_udp.c</in>
+          <in>ngx_http_lua_ssl_certby.c</in>
+          <in>ngx_http_lua_ssl_ocsp.c</in>
+          <in>ngx_http_lua_string.c</in>
+          <in>ngx_http_lua_subrequest.c</in>
+          <in>ngx_http_lua_time.c</in>
+          <in>ngx_http_lua_timer.c</in>
+          <in>ngx_http_lua_uri.c</in>
+          <in>ngx_http_lua_uthread.c</in>
+          <in>ngx_http_lua_util.c</in>
+          <in>ngx_http_lua_variable.c</in>
+          <in>ngx_http_lua_worker.c</in>
+        </df>
+      </df>
+      <df name="nginx-1.10.1">
+        <df name="objs">
+          <in>ngx_modules.c</in>
+        </df>
+        <df name="src">
+          <df name="core">
+            <in>nginx.c</in>
+            <in>ngx_array.c</in>
+            <in>ngx_buf.c</in>
+            <in>ngx_conf_file.c</in>
+            <in>ngx_connection.c</in>
+            <in>ngx_cpuinfo.c</in>
+            <in>ngx_crc32.c</in>
+            <in>ngx_crypt.c</in>
+            <in>ngx_cycle.c</in>
+            <in>ngx_file.c</in>
+            <in>ngx_hash.c</in>
+            <in>ngx_inet.c</in>
+            <in>ngx_list.c</in>
+            <in>ngx_log.c</in>
+            <in>ngx_md5.c</in>
+            <in>ngx_module.c</in>
+            <in>ngx_murmurhash.c</in>
+            <in>ngx_open_file_cache.c</in>
+            <in>ngx_output_chain.c</in>
+            <in>ngx_palloc.c</in>
+            <in>ngx_parse.c</in>
+            <in>ngx_parse_time.c</in>
+            <in>ngx_proxy_protocol.c</in>
+            <in>ngx_queue.c</in>
+            <in>ngx_radix_tree.c</in>
+            <in>ngx_rbtree.c</in>
+            <in>ngx_regex.c</in>
+            <in>ngx_resolver.c</in>
+            <in>ngx_rwlock.c</in>
+            <in>ngx_shmtx.c</in>
+            <in>ngx_slab.c</in>
+            <in>ngx_spinlock.c</in>
+            <in>ngx_string.c</in>
+            <in>ngx_syslog.c</in>
+            <in>ngx_times.c</in>
+          </df>
+          <df name="event">
+            <df name="modules">
+              <in>ngx_epoll_module.c</in>
+              <in>ngx_poll_module.c</in>
+            </df>
+            <in>ngx_event.c</in>
+            <in>ngx_event_accept.c</in>
+            <in>ngx_event_connect.c</in>
+            <in>ngx_event_openssl.c</in>
+            <in>ngx_event_openssl_stapling.c</in>
+            <in>ngx_event_pipe.c</in>
+            <in>ngx_event_posted.c</in>
+            <in>ngx_event_timer.c</in>
+          </df>
+          <df name="http">
+            <df name="modules">
+              <in>ngx_http_access_module.c</in>
+              <in>ngx_http_auth_basic_module.c</in>
+              <in>ngx_http_autoindex_module.c</in>
+              <in>ngx_http_browser_module.c</in>
+              <in>ngx_http_charset_filter_module.c</in>
+              <in>ngx_http_chunked_filter_module.c</in>
+              <in>ngx_http_empty_gif_module.c</in>
+              <in>ngx_http_fastcgi_module.c</in>
+              <in>ngx_http_geo_module.c</in>
+              <in>ngx_http_gzip_filter_module.c</in>
+              <in>ngx_http_headers_filter_module.c</in>
+              <in>ngx_http_index_module.c</in>
+              <in>ngx_http_limit_conn_module.c</in>
+              <in>ngx_http_limit_req_module.c</in>
+              <in>ngx_http_log_module.c</in>
+              <in>ngx_http_map_module.c</in>
+              <in>ngx_http_memcached_module.c</in>
+              <in>ngx_http_not_modified_filter_module.c</in>
+              <in>ngx_http_proxy_module.c</in>
+              <in>ngx_http_range_filter_module.c</in>
+              <in>ngx_http_referer_module.c</in>
+              <in>ngx_http_rewrite_module.c</in>
+              <in>ngx_http_scgi_module.c</in>
+              <in>ngx_http_split_clients_module.c</in>
+              <in>ngx_http_ssi_filter_module.c</in>
+              <in>ngx_http_ssl_module.c</in>
+              <in>ngx_http_static_module.c</in>
+              <in>ngx_http_sub_filter_module.c</in>
+              <in>ngx_http_upstream_hash_module.c</in>
+              <in>ngx_http_upstream_ip_hash_module.c</in>
+              <in>ngx_http_upstream_keepalive_module.c</in>
+              <in>ngx_http_upstream_least_conn_module.c</in>
+              <in>ngx_http_upstream_zone_module.c</in>
+              <in>ngx_http_userid_filter_module.c</in>
+              <in>ngx_http_uwsgi_module.c</in>
+            </df>
+            <in>ngx_http.c</in>
+            <in>ngx_http_copy_filter_module.c</in>
+            <in>ngx_http_core_module.c</in>
+            <in>ngx_http_file_cache.c</in>
+            <in>ngx_http_header_filter_module.c</in>
+            <in>ngx_http_parse.c</in>
+            <in>ngx_http_postpone_filter_module.c</in>
+            <in>ngx_http_request.c</in>
+            <in>ngx_http_request_body.c</in>
+            <in>ngx_http_script.c</in>
+            <in>ngx_http_special_response.c</in>
+            <in>ngx_http_upstream.c</in>
+            <in>ngx_http_upstream_round_robin.c</in>
+            <in>ngx_http_variables.c</in>
+            <in>ngx_http_write_filter_module.c</in>
+          </df>
+          <df name="os">
+            <df name="unix">
+              <in>ngx_alloc.c</in>
+              <in>ngx_channel.c</in>
+              <in>ngx_daemon.c</in>
+              <in>ngx_dlopen.c</in>
+              <in>ngx_errno.c</in>
+              <in>ngx_files.c</in>
+              <in>ngx_linux_init.c</in>
+              <in>ngx_linux_sendfile_chain.c</in>
+              <in>ngx_posix_init.c</in>
+              <in>ngx_process.c</in>
+              <in>ngx_process_cycle.c</in>
+              <in>ngx_readv_chain.c</in>
+              <in>ngx_recv.c</in>
+              <in>ngx_send.c</in>
+              <in>ngx_setaffinity.c</in>
+              <in>ngx_setproctitle.c</in>
+              <in>ngx_shmem.c</in>
+              <in>ngx_socket.c</in>
+              <in>ngx_time.c</in>
+              <in>ngx_udp_recv.c</in>
+              <in>ngx_udp_send.c</in>
+              <in>ngx_user.c</in>
+              <in>ngx_writev_chain.c</in>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <in>ngx_http_dummy_filter_module.c</in>
+        <in>ngx_http_url_rewrite_filter_module.c</in>
+        <in>ngx_http_url_rewrite_html_parse.c</in>
+        <in>ngx_http_url_rewrite_url_parse.c</in>
+        <in>ngx_http_url_rewrite_url_parse.rl</in>
+        <in>ngx_http_url_rewrite_url_transform.c</in>
+      </df>
+    </df>
+    <df root="." name="1">
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nginx-1.10.1/Makefile</itemPath>
+      <itemPath>nginx-1.10.1/configure</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nginx-1.10.1/Makefile</itemPath>
+      <itemPath>nginx-1.10.1/configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>nginx-1.10.1/Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-g -ggdb3"/>
+        <element flagsID="1" commonFlags="-mtune=generic -march=x86-64 -g -O"/>
+        <element flagsID="2"
+                 commonFlags="-mtune=generic -march=x86-64 -g -g -ggdb3 -O -fstack-protector"/>
+        <element flagsID="3"
+                 commonFlags="-mtune=generic -march=x86-64 -g -ggdb3 -O -fstack-protector"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>nginx-1.10.1</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile</cleanCommand>
+          <executablePath>nginx-1.10.1/objs/nginx</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="echo-nginx-module/src/ngx_http_echo_echo.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_filter.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_foreach.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_handler.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_location.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_request_info.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_sleep.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_subrequest.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_timer.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_util.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="echo-nginx-module/src/ngx_http_echo_var.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <folder path="0/echo-nginx-module">
+        <cTool>
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/event/modules</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/objs</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/http/modules</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DDEBUG=1</Elem>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/lua-nginx-module">
+        <cTool>
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/event/modules</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>lua-nginx-module/src/api</pElem>
+            <pElem>nginx-1.10.1/objs</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/http/modules</pElem>
+            <pElem>/usr/local/include/luajit-2.0</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+            <Elem>NDK_SET_VAR</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/nginx-1.10.1">
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/nginx-1.10.1/objs">
+        <cTool>
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/event/modules</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/objs</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>DDEBUG=1</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/nginx-1.10.1/src">
+        <cTool>
+          <preprocessorList>
+            <Elem>DEBUG=1</Elem>
+            <Elem>NGX_LUA_ABORT_AT_PANIC=1</Elem>
+            <Elem>NGX_LUA_USE_ASSERT=1</Elem>
+            <Elem>_FORTIFY_SOURCE=2</Elem>
+            <Elem>__REGISTER_PREFIX__=</Elem>
+            <Elem>__SSP__=1</Elem>
+            <Elem>__USER_LABEL_PREFIX__=</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/nginx-1.10.1/src/core">
+        <cTool>
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/nginx-1.10.1/src/event/modules">
+        <cTool>
+          <incDir>
+            <pElem>nginx-1.10.1/src/event/modules</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/nginx-1.10.1/src/http/modules">
+        <cTool>
+          <incDir>
+            <pElem>nginx-1.10.1/src/http/modules</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/nginx-1.10.1/src/os">
+        <cTool>
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>NDK_SET_VAR=1</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <item path="lua-nginx-module/src/ngx_http_lua_accessby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_api.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_args.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_balancer.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_bodyfilterby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_cache.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_capturefilter.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_clfactory.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_config.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_consts.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_contentby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_control.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_coroutine.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_ctx.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_directive.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_exception.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_headerfilterby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_headers.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_headers_in.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_headers_out.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_initby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_initworkerby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_lex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_log.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_logby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_misc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_ndk.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_output.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_pcrefix.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_phase.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_regex.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_req_body.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_req_method.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_rewriteby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_script.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_semaphore.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_setby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_shdict.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_sleep.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_socket_tcp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_socket_udp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_ssl_certby.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_ssl_ocsp.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_string.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+            <pElem>/usr/include/openssl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_subrequest.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_time.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_timer.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_uri.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_uthread.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_util.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+            <pElem>/usr/include/openssl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_variable.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="lua-nginx-module/src/ngx_http_lua_worker.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>lua-nginx-module/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/objs/ngx_modules.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/nginx.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_array.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_buf.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_conf_file.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_connection.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_cpuinfo.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_crc32.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_crypt.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_cycle.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_file.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_hash.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_inet.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_list.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_log.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_md5.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_module.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_murmurhash.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_open_file_cache.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_output_chain.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_palloc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_parse.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_parse_time.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_proxy_protocol.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_queue.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_radix_tree.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_rbtree.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_regex.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_resolver.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_rwlock.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_shmtx.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_slab.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_spinlock.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_string.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_syslog.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/core/ngx_times.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/modules/ngx_epoll_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/modules/ngx_poll_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/ngx_event.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/ngx_event_accept.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/ngx_event_connect.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/ngx_event_openssl.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="3">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>nginx-1.10.1/objs</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/ngx_event_openssl_stapling.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="3">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>nginx-1.10.1/objs</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/ngx_event_pipe.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/ngx_event_posted.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/event/ngx_event_timer.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_access_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_auth_basic_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_autoindex_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_browser_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_charset_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_chunked_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_empty_gif_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_fastcgi_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_geo_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_gzip_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_headers_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_index_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_limit_conn_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_limit_req_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_log_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_map_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_memcached_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_not_modified_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_proxy_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_range_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_referer_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_rewrite_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_scgi_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_split_clients_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_ssi_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_ssl_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="3">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/objs</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_static_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_sub_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="2">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/objs</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_upstream_hash_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_upstream_ip_hash_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_upstream_keepalive_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_upstream_least_conn_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_upstream_zone_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_userid_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/modules/ngx_http_uwsgi_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_copy_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_core_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_file_cache.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_header_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_parse.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_postpone_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_request.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_request_body.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_script.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_special_response.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_upstream.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_upstream_round_robin.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_variables.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/http/ngx_http_write_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_alloc.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_channel.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_daemon.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_dlopen.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_errno.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_files.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_linux_init.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_linux_sendfile_chain.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_posix_init.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_process.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_process_cycle.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_readv_chain.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_recv.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_send.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_setaffinity.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_setproctitle.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_shmem.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_socket.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_time.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_udp_recv.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_udp_send.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_user.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="nginx-1.10.1/src/os/unix/ngx_writev_chain.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/ngx_http_dummy_filter_module.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+          <incDir>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/event/modules</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/objs</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1/src/http/modules</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/ngx_http_url_rewrite_filter_module.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/ngx_http_url_rewrite_html_parse.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/ngx_http_url_rewrite_url_parse.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="src/ngx_http_url_rewrite_url_parse.rl"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool>
+          <preprocessorList>
+            <Elem>NDK_SET_VAR=1</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="src/ngx_http_url_rewrite_url_transform.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="1">
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>nginx-1.10.1/src/core</pElem>
+            <pElem>nginx-1.10.1/src/event</pElem>
+            <pElem>nginx-1.10.1/src/os/unix</pElem>
+            <pElem>nginx-1.10.1/src/http</pElem>
+            <pElem>nginx-1.10.1</pElem>
+          </incDir>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
