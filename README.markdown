@@ -1,7 +1,7 @@
 Name
 ====
 
-ngx_dummy_filter - Placeholder for real-world filter modules.
+ngx_dummy_filter - Placeholder for real-world nginx filter modules.
 
 *This module is not distributed with the Nginx source.* See [the installation instructions](#installation).
 
@@ -12,17 +12,9 @@ Table of Contents
 * [Status](#status)
 * [Synopsis](#synopsis)
 * [Description](#description)
-* [Directives](#directives)
-    * [replace_filter](#replace_filter)
-    * [replace_filter_types](#replace_filter_types)
 * [Installation](#installation)
-* [Trouble Shooting](#trouble-shooting)
 * [TODO](#todo)
-* [Community](#community)
-    * [English Mailing List](#english-mailing-list)
-    * [Chinese Mailing List](#chinese-mailing-list)
 * [Bugs and Patches](#bugs-and-patches)
-* [Author](#author)
 * [Copyright and License](#copyright-and-license)
 * [See Also](#see-also)
 
@@ -39,15 +31,14 @@ Synopsis
     location /t {
         default_type text/html;
         echo abc;
-        replace_filter 'ab|abc' X;
+        dummy_filter on;
     }
 
     location / {
         # proxy_pass/fastcgi_pass/...
 
-        # caseless global substitution:
-        replace_filter '\d+' 'blah blah' 'ig';
-        replace_filter_types text/plain text/css;
+        dummy_filter on;
+        dummy_filter_types text/plain text/css;
     }
 
 ```
@@ -65,7 +56,7 @@ Installation
 You need rebuild your Nginx like this:
 
 ```bash
-    ./configure --add-module=/path/to/replace-filter-nginx-module
+    ./configure --add-module=/path/to/dummy-filter-module
 ```
 
 [Back to TOC](#table-of-contents)
@@ -74,11 +65,7 @@ You need rebuild your Nginx like this:
 TODO
 ====
 
-* optimize the special case for verbatim substitutions, i.e., `replace_filter <regex> $&;`.
-* implement the `replace_filter_skip $var` directive to control whether to enable the filter on the fly.
-* reduce the amount of data that has to be buffered for when an partial match is already found.
-* recycle the memory blocks used to buffer the pending capture data and "complex values" for replacement.
-* allow use of inlined Lua code as the `replacement` argument of the `replace_filter` directive to generate the text to be replaced on-the-fly.
+* ?
 
 [Back to TOC](#table-of-contents)
 
@@ -88,7 +75,7 @@ Bugs and Patches
 
 Please submit bug reports, wishlists, or patches by
 
-1. creating a ticket on the [GitHub Issue Tracker](http://github.com/agentzh/replace-filter-nginx-module/issues),
+1. creating a ticket on the [GitHub Issue Tracker](https://github.com/amdei/dummy-filter-module/issues),
 
 [Back to TOC](#table-of-contents)
 
