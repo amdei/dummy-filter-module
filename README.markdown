@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/amdei/dummy-filter-module.svg?branch=master)](https://travis-ci.org/amdei/dummy-filter-module)
+
 Name
 ====
 
