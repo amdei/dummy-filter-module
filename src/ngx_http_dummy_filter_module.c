@@ -269,7 +269,6 @@ ngx_http_dummy_filter_parse(ngx_http_request_t *r,
     u_char                   *start, *end;
     ngx_buf_t                *b;
     ngx_int_t                 rc;
-    ngx_int_t                 rc_transform;
 
     ngx_log_debug0(NGX_LOG_DEBUG_HTTP, r->connection->log, 0, "dummy parse");
     

@@ -414,9 +414,6 @@
             <pElem>nginx-1.10.1/objs</pElem>
             <pElem>nginx-1.10.1</pElem>
           </incDir>
-          <preprocessorList>
-            <Elem>DDEBUG=1</Elem>
-          </preprocessorList>
         </cTool>
       </folder>
       <folder path="0/nginx-1.10.1/src">
