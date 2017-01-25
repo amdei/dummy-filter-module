@@ -12,7 +12,7 @@ compiler:
 env:
   matrix:
     - NGINX_VERSION=1.10.1
-    - NGINX_VERSION=1.9.15
+    - NGINX_VERSION=1.11.9
     
 before_install:
   - sudo apt-get install -qq -y cpanminus libluajit-5.1-dev libgd-dev libpcre3-dev
