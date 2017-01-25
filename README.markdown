@@ -16,7 +16,6 @@ Table of Contents
 * [TODO](#todo)
 * [Bugs and Patches](#bugs-and-patches)
 * [Copyright and License](#copyright-and-license)
-* [See Also](#see-also)
 
 Status
 ======
