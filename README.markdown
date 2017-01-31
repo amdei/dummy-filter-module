@@ -10,7 +10,6 @@ ngx_dummy_filter - Placeholder for real-world nginx filter modules.
 Table of Contents
 =================
 
-* [Name](#name)
 * [Status](#status)
 * [Synopsis](#synopsis)
 * [Description](#description)
