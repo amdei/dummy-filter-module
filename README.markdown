@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/amdei/dummy-filter-module.svg?branch=master)](https://travis-ci.org/amdei/dummy-filter-module)
+[![Build Status](https://travis-ci.org/amdei/dummy-filter-module.svg?branch=master)](https://travis-ci.org/amdei/dummy-filter-module)    [![Code Health](https://landscape.io/github/amdei/dummy-filter-module/master/landscape.svg?style=plastic)](https://landscape.io/github/amdei/dummy-filter-module/master)
 
 Name
 ====
