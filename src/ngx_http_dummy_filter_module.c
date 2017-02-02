@@ -125,7 +125,7 @@ ngx_http_dummy_filter_body_filter(ngx_http_request_t *r, ngx_chain_t *in)
     ngx_int_t                          pre_url_len;
     ngx_chain_t                       *cl, **cur_cl, *nl;
     ngx_buf_t                         *b;
-    ngx_http_dummy_filter_ctx_t *ctx;
+    ngx_http_dummy_filter_ctx_t       *ctx;
     
 
     ctx = ngx_http_get_module_ctx(r, ngx_http_dummy_filter_module);
@@ -265,7 +265,7 @@ static ngx_int_t
 ngx_http_dummy_filter_parse(ngx_http_request_t *r, 
                                   ngx_http_dummy_filter_ctx_t *ctx)
 {
-    u_char                   *p;
+/*    u_char                   *p; */
     u_char                   *start, *end;
     ngx_buf_t                *b;
     ngx_int_t                 rc;
@@ -277,14 +277,14 @@ ngx_http_dummy_filter_parse(ngx_http_request_t *r,
     end   = b->last;
 
     ngx_log_debug1(NGX_LOG_DEBUG_HTTP, r->connection->log, 0, "Processing %d chars.", end - start);
-
+/*
     p = start;
 
     for (p = start; p < end; p++) {
         ngx_log_debug2(NGX_LOG_DEBUG_HTTP, r->connection->log, 0,
                        "catch body in: 0x%02Xd: %c", *p, *p);
     }
-   
+*/   
     if(start == end){
         ngx_log_debug0(NGX_LOG_DEBUG_HTTP, r->connection->log, 0, "empty buffer");
         return NGX_OK;
